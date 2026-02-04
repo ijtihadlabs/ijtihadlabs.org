@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /apps/masjid-kiosk/
+Disallow: /apps/masjid-kiosk-preview/
 
 Sitemap: https://ijtihadlabs.org/sitemap.xml

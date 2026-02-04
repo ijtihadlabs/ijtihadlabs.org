@@ -410,6 +410,19 @@ button:focus-visible {
   margin-top: 1.5rem;
 }
 
+.status-banner {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--sand), white 40%);
+  color: var(--forest);
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  border: 1px solid color-mix(in srgb, var(--forest), transparent 70%);
+}
+
 @keyframes rise {
   to {
     transform: translateY(0);
